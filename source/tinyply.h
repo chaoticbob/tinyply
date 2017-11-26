@@ -197,7 +197,7 @@ namespace tinyply
 		{
 			if (list[i].name == key)
 			{
-				return i;
+				return static_cast<int>(i);
 			}
 		}
 		return -1;
